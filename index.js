@@ -56,5 +56,6 @@ app.delete('/customer/:id',(req,res)=>{
     res.send(customer);
 })
 app.listen(3000,()=>{
+    console.log("Listening");
     console.log("Listening to the port 3000");
 })
